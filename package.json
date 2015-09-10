@@ -1,0 +1,16 @@
+{
+  "name": "robin-atom-syntax",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "A simple, light, in progress Atom theme with contrasted colours.",
+  "keywords": [
+    "syntax",
+    "atom",
+    "theme"
+  ],
+  "repository": "https://github.com/darobin/robin-atom-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
