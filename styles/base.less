@@ -84,6 +84,9 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 
   &.syntax--control {
     color: @purple;
+    font-weight: bold;
+    border-bottom: 3px solid @syntax-result-marker-color-selected;
+    box-shadow: inset 0 -4px 0 @syntax-result-marker-color-selected;
   }
 
   &.syntax--operator {
@@ -236,6 +239,15 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 .syntax--meta {
   &.syntax--class {
     color: @light-orange;
+  }
+
+  // function declaration
+  &.syntax--function {
+    &.syntax--entity.syntax--name.syntax--function {
+      font-weight: bold;
+      border-bottom: 3px solid @orange;
+      box-shadow: inset 0 -4px 0 @orange;
+    }
   }
 
   &.syntax--link {
